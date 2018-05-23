@@ -1,7 +1,9 @@
+from abc import ABC, abstractmethod
+
 from pygame import draw
 from pygame import gfxdraw
-from abc import ABC, abstractmethod
-from json_parser.colors_data_parser import format_color
+
+from .colors_data_parser import format_color
 
 
 class FiguresData:

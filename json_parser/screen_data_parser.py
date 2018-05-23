@@ -1,5 +1,6 @@
-from json_parser.colors_data_parser import format_color
 from pygame import display
+
+from .colors_data_parser import format_color
 
 
 class ScreenData:
