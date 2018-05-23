@@ -1,9 +1,10 @@
 import argparse
 import json
-from json_parser.colors_data_parser import parse_color_palette
-from json_parser.screen_data_parser import ScreenData
-from json_parser.figures_data_parser import FiguresData
-from displayer.picture_generator import generate_picture
+
+from displayer import generate_picture
+from json_parser import FiguresData
+from json_parser import ScreenData
+from json_parser import parse_color_palette
 
 
 def parse_file(input_file):
